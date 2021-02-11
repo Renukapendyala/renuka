@@ -15,6 +15,7 @@ System.out.println("maven test");
 WebDriverManager.chromedriver().setup();
 WebDriver driver=new ChromeDriver();
 driver.get("https:www.gmail.com");
+System.out.println("adding");
 	}
 
 }
